@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6DBD582C1D13B50F00C523FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DBD582B1D13B50F00C523FC /* main.m */; };
+		6DBD582F1D13B50F00C523FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DBD582E1D13B50F00C523FC /* AppDelegate.m */; };
+		6DBD58321D13B50F00C523FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DBD58311D13B50F00C523FC /* ViewController.m */; };
+		6DBD58351D13B50F00C523FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DBD58331D13B50F00C523FC /* Main.storyboard */; };
+		6DBD58371D13B50F00C523FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DBD58361D13B50F00C523FC /* Assets.xcassets */; };
+		6DBD583A1D13B50F00C523FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DBD58381D13B50F00C523FC /* LaunchScreen.storyboard */; };
+		6DBD58451D13B51000C523FC /* ZHAudioRecordToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DBD58441D13B51000C523FC /* ZHAudioRecordToolTests.m */; };
+		6DBD58501D13B51000C523FC /* ZHAudioRecordToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DBD584F1D13B51000C523FC /* ZHAudioRecordToolUITests.m */; };
+		6DBD58601D13B54A00C523FC /* libmp3lame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DBD585F1D13B54A00C523FC /* libmp3lame.a */; };
+		6DBD58681D13B5A300C523FC /* ZHAudioRecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DBD58671D13B5A300C523FC /* ZHAudioRecoder.m */; };
+		6DBD586A1D13B62900C523FC /* voice-1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6DBD58691D13B62900C523FC /* voice-1.gif */; };
+		6DBD586E1D13B64300C523FC /* ZHRecordAudioView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DBD586D1D13B64300C523FC /* ZHRecordAudioView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6DBD58411D13B51000C523FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DBD581F1D13B50F00C523FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DBD58261D13B50F00C523FC;
+			remoteInfo = ZHAudioRecordTool;
+		};
+		6DBD584C1D13B51000C523FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DBD581F1D13B50F00C523FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DBD58261D13B50F00C523FC;
+			remoteInfo = ZHAudioRecordTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6DBD58271D13B50F00C523FC /* ZHAudioRecordTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHAudioRecordTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DBD582B1D13B50F00C523FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6DBD582D1D13B50F00C523FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6DBD582E1D13B50F00C523FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6DBD58301D13B50F00C523FC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6DBD58311D13B50F00C523FC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6DBD58341D13B50F00C523FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6DBD58361D13B50F00C523FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6DBD58391D13B50F00C523FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6DBD583B1D13B50F00C523FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DBD58401D13B51000C523FC /* ZHAudioRecordToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHAudioRecordToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DBD58441D13B51000C523FC /* ZHAudioRecordToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHAudioRecordToolTests.m; sourceTree = "<group>"; };
+		6DBD58461D13B51000C523FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DBD584B1D13B51000C523FC /* ZHAudioRecordToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHAudioRecordToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DBD584F1D13B51000C523FC /* ZHAudioRecordToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHAudioRecordToolUITests.m; sourceTree = "<group>"; };
+		6DBD58511D13B51000C523FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DBD585E1D13B54A00C523FC /* lame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lame.h; sourceTree = "<group>"; };
+		6DBD585F1D13B54A00C523FC /* libmp3lame.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmp3lame.a; sourceTree = "<group>"; };
+		6DBD58661D13B5A300C523FC /* ZHAudioRecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHAudioRecoder.h; sourceTree = "<group>"; };
+		6DBD58671D13B5A300C523FC /* ZHAudioRecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHAudioRecoder.m; sourceTree = "<group>"; };
+		6DBD58691D13B62900C523FC /* voice-1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "voice-1.gif"; sourceTree = "<group>"; };
+		6DBD586C1D13B64300C523FC /* ZHRecordAudioView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHRecordAudioView.h; sourceTree = "<group>"; };
+		6DBD586D1D13B64300C523FC /* ZHRecordAudioView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHRecordAudioView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DBD58241D13B50F00C523FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DBD58601D13B54A00C523FC /* libmp3lame.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DBD583D1D13B51000C523FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DBD58481D13B51000C523FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6DBD581E1D13B50F00C523FC = {
+			isa = PBXGroup;
+			children = (
+				6DBD58291D13B50F00C523FC /* ZHAudioRecordTool */,
+				6DBD58431D13B51000C523FC /* ZHAudioRecordToolTests */,
+				6DBD584E1D13B51000C523FC /* ZHAudioRecordToolUITests */,
+				6DBD58281D13B50F00C523FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6DBD58281D13B50F00C523FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DBD58271D13B50F00C523FC /* ZHAudioRecordTool.app */,
+				6DBD58401D13B51000C523FC /* ZHAudioRecordToolTests.xctest */,
+				6DBD584B1D13B51000C523FC /* ZHAudioRecordToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DBD58291D13B50F00C523FC /* ZHAudioRecordTool */ = {
+			isa = PBXGroup;
+			children = (
+				6DBD58691D13B62900C523FC /* voice-1.gif */,
+				6DBD586B1D13B64300C523FC /* RecordView */,
+				6DBD58651D13B5A300C523FC /* ZHAudioRecord */,
+				6DBD585D1D13B54A00C523FC /* lame */,
+				6DBD582D1D13B50F00C523FC /* AppDelegate.h */,
+				6DBD582E1D13B50F00C523FC /* AppDelegate.m */,
+				6DBD58301D13B50F00C523FC /* ViewController.h */,
+				6DBD58311D13B50F00C523FC /* ViewController.m */,
+				6DBD58331D13B50F00C523FC /* Main.storyboard */,
+				6DBD58361D13B50F00C523FC /* Assets.xcassets */,
+				6DBD58381D13B50F00C523FC /* LaunchScreen.storyboard */,
+				6DBD583B1D13B50F00C523FC /* Info.plist */,
+				6DBD582A1D13B50F00C523FC /* Supporting Files */,
+			);
+			path = ZHAudioRecordTool;
+			sourceTree = "<group>";
+		};
+		6DBD582A1D13B50F00C523FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6DBD582B1D13B50F00C523FC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6DBD58431D13B51000C523FC /* ZHAudioRecordToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				6DBD58441D13B51000C523FC /* ZHAudioRecordToolTests.m */,
+				6DBD58461D13B51000C523FC /* Info.plist */,
+			);
+			path = ZHAudioRecordToolTests;
+			sourceTree = "<group>";
+		};
+		6DBD584E1D13B51000C523FC /* ZHAudioRecordToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6DBD584F1D13B51000C523FC /* ZHAudioRecordToolUITests.m */,
+				6DBD58511D13B51000C523FC /* Info.plist */,
+			);
+			path = ZHAudioRecordToolUITests;
+			sourceTree = "<group>";
+		};
+		6DBD585D1D13B54A00C523FC /* lame */ = {
+			isa = PBXGroup;
+			children = (
+				6DBD585E1D13B54A00C523FC /* lame.h */,
+				6DBD585F1D13B54A00C523FC /* libmp3lame.a */,
+			);
+			path = lame;
+			sourceTree = "<group>";
+		};
+		6DBD58651D13B5A300C523FC /* ZHAudioRecord */ = {
+			isa = PBXGroup;
+			children = (
+				6DBD58661D13B5A300C523FC /* ZHAudioRecoder.h */,
+				6DBD58671D13B5A300C523FC /* ZHAudioRecoder.m */,
+			);
+			path = ZHAudioRecord;
+			sourceTree = "<group>";
+		};
+		6DBD586B1D13B64300C523FC /* RecordView */ = {
+			isa = PBXGroup;
+			children = (
+				6DBD586C1D13B64300C523FC /* ZHRecordAudioView.h */,
+				6DBD586D1D13B64300C523FC /* ZHRecordAudioView.m */,
+			);
+			path = RecordView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DBD58261D13B50F00C523FC /* ZHAudioRecordTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DBD58541D13B51000C523FC /* Build configuration list for PBXNativeTarget "ZHAudioRecordTool" */;
+			buildPhases = (
+				6DBD58231D13B50F00C523FC /* Sources */,
+				6DBD58241D13B50F00C523FC /* Frameworks */,
+				6DBD58251D13B50F00C523FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZHAudioRecordTool;
+			productName = ZHAudioRecordTool;
+			productReference = 6DBD58271D13B50F00C523FC /* ZHAudioRecordTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6DBD583F1D13B51000C523FC /* ZHAudioRecordToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DBD58571D13B51000C523FC /* Build configuration list for PBXNativeTarget "ZHAudioRecordToolTests" */;
+			buildPhases = (
+				6DBD583C1D13B51000C523FC /* Sources */,
+				6DBD583D1D13B51000C523FC /* Frameworks */,
+				6DBD583E1D13B51000C523FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DBD58421D13B51000C523FC /* PBXTargetDependency */,
+			);
+			name = ZHAudioRecordToolTests;
+			productName = ZHAudioRecordToolTests;
+			productReference = 6DBD58401D13B51000C523FC /* ZHAudioRecordToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6DBD584A1D13B51000C523FC /* ZHAudioRecordToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DBD585A1D13B51000C523FC /* Build configuration list for PBXNativeTarget "ZHAudioRecordToolUITests" */;
+			buildPhases = (
+				6DBD58471D13B51000C523FC /* Sources */,
+				6DBD58481D13B51000C523FC /* Frameworks */,
+				6DBD58491D13B51000C523FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DBD584D1D13B51000C523FC /* PBXTargetDependency */,
+			);
+			name = ZHAudioRecordToolUITests;
+			productName = ZHAudioRecordToolUITests;
+			productReference = 6DBD584B1D13B51000C523FC /* ZHAudioRecordToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DBD581F1D13B50F00C523FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = personal;
+				TargetAttributes = {
+					6DBD58261D13B50F00C523FC = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = CV7MH8K7UH;
+					};
+					6DBD583F1D13B51000C523FC = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = CV7MH8K7UH;
+						TestTargetID = 6DBD58261D13B50F00C523FC;
+					};
+					6DBD584A1D13B51000C523FC = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = CV7MH8K7UH;
+						TestTargetID = 6DBD58261D13B50F00C523FC;
+					};
+				};
+			};
+			buildConfigurationList = 6DBD58221D13B50F00C523FC /* Build configuration list for PBXProject "ZHAudioRecordTool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6DBD581E1D13B50F00C523FC;
+			productRefGroup = 6DBD58281D13B50F00C523FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DBD58261D13B50F00C523FC /* ZHAudioRecordTool */,
+				6DBD583F1D13B51000C523FC /* ZHAudioRecordToolTests */,
+				6DBD584A1D13B51000C523FC /* ZHAudioRecordToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DBD58251D13B50F00C523FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DBD583A1D13B50F00C523FC /* LaunchScreen.storyboard in Resources */,
+				6DBD58371D13B50F00C523FC /* Assets.xcassets in Resources */,
+				6DBD58351D13B50F00C523FC /* Main.storyboard in Resources */,
+				6DBD586A1D13B62900C523FC /* voice-1.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DBD583E1D13B51000C523FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DBD58491D13B51000C523FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DBD58231D13B50F00C523FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DBD58321D13B50F00C523FC /* ViewController.m in Sources */,
+				6DBD586E1D13B64300C523FC /* ZHRecordAudioView.m in Sources */,
+				6DBD582F1D13B50F00C523FC /* AppDelegate.m in Sources */,
+				6DBD582C1D13B50F00C523FC /* main.m in Sources */,
+				6DBD58681D13B5A300C523FC /* ZHAudioRecoder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DBD583C1D13B51000C523FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DBD58451D13B51000C523FC /* ZHAudioRecordToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DBD58471D13B51000C523FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DBD58501D13B51000C523FC /* ZHAudioRecordToolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6DBD58421D13B51000C523FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DBD58261D13B50F00C523FC /* ZHAudioRecordTool */;
+			targetProxy = 6DBD58411D13B51000C523FC /* PBXContainerItemProxy */;
+		};
+		6DBD584D1D13B51000C523FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DBD58261D13B50F00C523FC /* ZHAudioRecordTool */;
+			targetProxy = 6DBD584C1D13B51000C523FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6DBD58331D13B50F00C523FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DBD58341D13B50F00C523FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6DBD58381D13B50F00C523FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DBD58391D13B50F00C523FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6DBD58521D13B51000C523FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6DBD58531D13B51000C523FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6DBD58551D13B51000C523FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZHAudioRecordTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZHAudioRecordTool/lame",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stackJolin.www.ZHAudioRecordTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6DBD58561D13B51000C523FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZHAudioRecordTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZHAudioRecordTool/lame",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stackJolin.www.ZHAudioRecordTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6DBD58581D13B51000C523FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZHAudioRecordToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stackJolin.www.ZHAudioRecordToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZHAudioRecordTool.app/ZHAudioRecordTool";
+			};
+			name = Debug;
+		};
+		6DBD58591D13B51000C523FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZHAudioRecordToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stackJolin.www.ZHAudioRecordToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZHAudioRecordTool.app/ZHAudioRecordTool";
+			};
+			name = Release;
+		};
+		6DBD585B1D13B51000C523FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZHAudioRecordToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stackJolin.www.ZHAudioRecordToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZHAudioRecordTool;
+			};
+			name = Debug;
+		};
+		6DBD585C1D13B51000C523FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZHAudioRecordToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stackJolin.www.ZHAudioRecordToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZHAudioRecordTool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DBD58221D13B50F00C523FC /* Build configuration list for PBXProject "ZHAudioRecordTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DBD58521D13B51000C523FC /* Debug */,
+				6DBD58531D13B51000C523FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DBD58541D13B51000C523FC /* Build configuration list for PBXNativeTarget "ZHAudioRecordTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DBD58551D13B51000C523FC /* Debug */,
+				6DBD58561D13B51000C523FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6DBD58571D13B51000C523FC /* Build configuration list for PBXNativeTarget "ZHAudioRecordToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DBD58581D13B51000C523FC /* Debug */,
+				6DBD58591D13B51000C523FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6DBD585A1D13B51000C523FC /* Build configuration list for PBXNativeTarget "ZHAudioRecordToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DBD585B1D13B51000C523FC /* Debug */,
+				6DBD585C1D13B51000C523FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DBD581F1D13B50F00C523FC /* Project object */;
+}
